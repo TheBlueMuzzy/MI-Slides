@@ -54,6 +54,26 @@ export const categoryDescriptions: Record<Category, string> = {
     "The central tension for dietitians \u2014 and specific techniques for staying in counselor mode.",
 };
 
+// Light/dark background tints for each category's cards
+export const categoryColors: Record<
+  Category,
+  { light: string; dark: string; pill: string }
+> = {
+  "The Spirit": { light: "#eef5f1", dark: "#1e2b22", pill: "#5b8a6e" },
+  "Four Processes": { light: "#eef1f7", dark: "#1e222e", pill: "#6878a8" },
+  Foundations: { light: "#f5eeee", dark: "#2b1e1e", pill: "#a06868" },
+  "Stages of Change": { light: "#f3eef5", dark: "#261e2b", pill: "#8868a0" },
+  "OARS Core Skills": { light: "#eef5f4", dark: "#1e2b28", pill: "#5b8a82" },
+  "Advanced Reflections": { light: "#f5f2ee", dark: "#2b261e", pill: "#a08e5b" },
+  "Information Exchange": { light: "#eef0f5", dark: "#1e202b", pill: "#5b72a0" },
+  "Evoking Motivation": { light: "#f5eeef", dark: "#2b1e20", pill: "#a05b68" },
+  "Navigating Resistance": { light: "#f1eef5", dark: "#221e2b", pill: "#7b5ba0" },
+  Planning: { light: "#eef5ee", dark: "#1e2b1e", pill: "#5ba05b" },
+  "Process Skills": { light: "#f5f4ee", dark: "#2b2a1e", pill: "#8a8a5b" },
+  "Traps to Avoid": { light: "#f5efee", dark: "#2b201e", pill: "#a07058" },
+  "Educator vs Counselor": { light: "#eef3f5", dark: "#1e262b", pill: "#5b8aa0" },
+};
+
 export const slides: Slide[] = [
   // ═══════════════════════════════════════════
   // THE SPIRIT
